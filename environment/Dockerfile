@@ -1,5 +1,5 @@
-# Use a pinned, approved base image (replace <REAL_DIGEST> with actual 64-char hex digest)
-FROM python:3.11-slim@sha256:REPLACE_WITH_REAL_DIGEST
+# Use a pinned, approved base image
+FROM python:3.11-slim@sha256:baf89808ec37adeaab83cec287adb4a2afa4a11c1d51e961c7ec737877e61af6
 
 # Install test dependencies at build time (no install at verify time)
 RUN pip install --no-cache-dir pytest==8.4.1 pytest-json-ctrf==0.3.5

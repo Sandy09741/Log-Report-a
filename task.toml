@@ -1,7 +1,6 @@
 name = "dynamo/log-report"
 
-[artifacts]
-paths = ["/app/report.json"]
+artifacts = ["/app/report.json"]
 
 [task]
 name = "dynamo/log-report"
